@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Cart from "./Pages/Cart/Cart";
-import PlaceOrder from "./pages/placeOrder/PlaceOrder";
+import PlaceOrder from "./Pages/PlaceOrder/PlaceOrder";
 import Footer from "./components/Footer/Footer";
 import Home from "./Pages/Home/Home";
 import LoginPopup from "./components/LoginPopup/LoginPopup";
