@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import "./placeOrder.css";
+import "./PlaceOrder.css";
 import { useContext, useEffect, useState } from "react";
 import { StoreContext } from "../../Context/StoreContext";
 import axios from "axios";
@@ -60,13 +60,11 @@ const PlaceOrder = () => {
 
   useEffect(() => {
     if (!token) {
-      navigate('/cart')
+      navigate("/cart");
+    } else if (getTotalCartAmount() === 0) {
+      navigate("/cart");
     }
-    else if (getTotalCartAmount() === 0) {
-      navigate('/cart')
-    }
-  }, [token])
-
+  }, [token]);
 
   return (
     <form onSubmit={placeOrder} className="place-order">
