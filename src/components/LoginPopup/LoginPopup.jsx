@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import "./loginPopup.css";
+import "./LoginPopup.css";
 import { assets } from "../../assets/frontend_assets/assets";
 import PropTypes from "prop-types";
 import { StoreContext } from './../../Context/StoreContext';
