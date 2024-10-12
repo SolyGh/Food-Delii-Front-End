@@ -6,7 +6,9 @@
 }
 
 .navbar .logo {
-  width: 150px;
+  color: tomato;
+  font-size: 50px;
+  
 }
 
 .navbar-menu {
