@@ -2,7 +2,7 @@
 
 A modern and responsive food delivery web application built with React.js. This project provides a seamless user experience for ordering food online, with a sleek user interface and intuitive navigation.
 
-![image](https://github.com/user-attachments/assets/8b66906e-845c-4221-a99d-7a42faa3c934)
+![image]([https://github.com/user-attachments/assets/8b66906e-845c-4221-a99d-7a42faa3c934](https://res.cloudinary.com/dowtlcpxj/image/upload/v1720036257/done/hero_b7quav_lulhhm.webp))
 
 
 ## Features
