@@ -1,14 +1,14 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
-import './footer.css'
-import { assets } from '../../assets/frontend_assets/assets'
+import React from "react";
+import "./footer.css";
+import { assets } from "../../assets/frontend_assets/assets";
 
 const Footer = () => {
   return (
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" />
+          <h2 className="footer-logo">Delli-Food</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam a
             nobis eveniet eius enim
@@ -31,17 +31,17 @@ const Footer = () => {
         <div className="footer-content-right">
           <h2>GET IN TOUCH</h2>
           <ul>
-            <li>+123 456 789</li>
-            <li>contact@tomato.com</li>
+            <li>+1111111</li>
+            <li>contact@Delli.com</li>
           </ul>
         </div>
       </div>
       <hr />
       <p className="footer-copyright">
-        Copyright @ 2024 Tomato.com - All Right Reserved.
+        Copyright @ 2024 Delli.com - All Right Reserved.
       </p>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;
